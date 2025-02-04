@@ -1,7 +1,7 @@
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
-# Создаем клавиатуру Давай/Не хочу
+# Создаем клавиатуру Давай/Не хочу/Мой счет
 kb_builder = ReplyKeyboardBuilder()
 play_btn = KeyboardButton(
     text='Давай!'
@@ -9,7 +9,10 @@ play_btn = KeyboardButton(
 no_play_btn = KeyboardButton(
     text='Не хочу!'
 )
-kb_builder.row(play_btn, no_play_btn, width=2)
+my_score_btn = KeyboardButton(
+    text='Мой счёт'
+)
+kb_builder.row(play_btn, no_play_btn, my_score_btn, width=2)
 yes_no_kb: ReplyKeyboardMarkup = kb_builder.as_markup(
     resize_keyboard=True,
     one_time_keyboard=True
