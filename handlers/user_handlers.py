@@ -1,10 +1,10 @@
 from aiogram import Router, F
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
-from stone_knots_paper_bot.lexicon.lexicon import LEXICON_RU
-from stone_knots_paper_bot.keyboards.keyboards import yes_no_kb, game_kb
-from stone_knots_paper_bot.services.services import random_stone_knots_paper, result_random, get_result
-from stone_knots_paper_bot.database.database import db
+from lexicon.lexicon import LEXICON_RU
+from keyboards.keyboards import yes_no_kb, game_kb
+from services.services import random_stone_knots_paper, result_random, get_result
+from database.database import db
 
 router = Router()
 

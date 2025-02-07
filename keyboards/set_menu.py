@@ -1,8 +1,6 @@
 from aiogram import Bot
 from aiogram.types import BotCommand
 
-from stone_knots_paper_bot.lexicon.lexicon import LEXICON_RU
-
 
 async def set_main_menu(bot: Bot):
     main_menu_commands = [

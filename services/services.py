@@ -1,5 +1,5 @@
 import random
-from stone_knots_paper_bot.database.database import db
+from database.database import db
 
 choices = {'камень🗿': 0,
            'ножницы✂️': 1,

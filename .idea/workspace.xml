@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="512360bf-af4e-4252-9637-623aacef150a" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../1_project/logging_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stone_knots_paper_bot/config_data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/stone_knots_paper_bot/config_data/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,11 @@
     &quot;last_opened_file_path&quot;: &quot;D:/MADEBY/aiogram/3_project&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MADEBY\aiogram\3_project\stone_knots_paper_bot" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3_project" />

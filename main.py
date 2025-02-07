@@ -1,8 +1,8 @@
 import asyncio
 from aiogram import Bot, Dispatcher
 from config_data.config import load_config
-from stone_knots_paper_bot.handlers import user_handlers, other_handlers
-from stone_knots_paper_bot.keyboards.set_menu import set_main_menu
+from handlers import user_handlers, other_handlers
+from keyboards.set_menu import set_main_menu
 
 
 async def main() -> None:
